@@ -14,5 +14,11 @@ class MyApp extends StatelessWidget {
           title: Text('Rounded Image Example'),
         ),
         body: Center(
+          child: roundImage('assets/sample_image.jpg', 20.0),
+        ),
+      ),
+    );
+  }
+}
 
 
