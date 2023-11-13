@@ -13,5 +13,6 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text('Rounded Image Example'),
         ),
+        body: Center(
 
 
