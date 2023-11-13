@@ -1,5 +1,5 @@
 dependencies:
   rounded_image:
     git:
-      url: https://github.com/rwema3/Packages-Development.git
+      url: https://github.com/rwema3/Packages-Development/round_image.git
       
