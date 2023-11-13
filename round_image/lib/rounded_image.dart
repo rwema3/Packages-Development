@@ -6,4 +6,5 @@ Widget roundImage(String imagePath, double radius) {
     borderRadius: BorderRadius.circular(radius),
     child: Image.asset(
       imagePath,
+      width: 100, // Set the desired width
  
