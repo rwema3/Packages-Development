@@ -8,4 +8,7 @@ Widget roundImage(String imagePath, double radius) {
       imagePath,
       width: 100, // Set the desired width
       height: 100, // Set the desired height
- 
+      fit: BoxFit.cover,
+    ),
+  );
+}
