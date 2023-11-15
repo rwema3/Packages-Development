@@ -16,3 +16,6 @@ class StripeService {
       PaymentMethod paymentMethod = await StripePayment.paymentRequestWithCardForm(
         CardFormPaymentRequest(),
       );
+
+      // Now you can send the paymentMethod.id to your server to create a charge or save it for later use
+ 
