@@ -18,4 +18,5 @@ class StripeService {
       );
 
       // Now you can send the paymentMethod.id to your server to create a charge or save it for later use
+      return {'success': true, 'paymentMethodId': paymentMethod.id};
  
