@@ -5,3 +5,4 @@ class StripeService {
     StripePayment.setOptions(
       StripeOptions(
         publishableKey: 'your_publishable_key',
+        merchantId: 'your_merchant_id',
