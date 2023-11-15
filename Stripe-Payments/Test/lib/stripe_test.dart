@@ -10,3 +10,5 @@ void main() {
       // Act
       Map<String, dynamic> result = await StripeService.createPaymentMethod();
 
+      // Assert
+      expect(result['success'], true);
