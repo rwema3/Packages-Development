@@ -11,3 +11,4 @@ class StripeService {
     );
   }
 
+  static Future<Map<String, dynamic>> createPaymentMethod() async {
