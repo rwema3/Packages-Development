@@ -7,3 +7,6 @@ void main() {
       // Arrange
       StripeService.init();
 
+      // Act
+      Map<String, dynamic> result = await StripeService.createPaymentMethod();
+
