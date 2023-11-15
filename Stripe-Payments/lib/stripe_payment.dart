@@ -4,3 +4,4 @@ class StripeService {
   static init() {
     StripePayment.setOptions(
       StripeOptions(
+        publishableKey: 'your_publishable_key',
