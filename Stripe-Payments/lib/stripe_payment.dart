@@ -21,4 +21,7 @@ class StripeService {
       return {'success': true, 'paymentMethodId': paymentMethod.id};
     } catch (error) {
       print('Error creating PaymentMethod: $error');
- 
+      return {'success': false, 'error': error.toString()};
+    }
+  }
+}
