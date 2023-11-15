@@ -12,3 +12,7 @@ void main() {
 
       // Assert
       expect(result['success'], true);
+      expect(result.containsKey('paymentMethodId'), true);
+    });
+  });
+}
