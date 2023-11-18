@@ -24,3 +24,4 @@ class AuthService {
       );
       return result.user;
     } catch (e) {
+      print("Error: $e");
