@@ -7,3 +7,6 @@ class AuthService {
     try {
       final result = await _auth.signInWithEmailAndPassword(
         email: email,
+        password: password,
+      );
+      return result.user;
