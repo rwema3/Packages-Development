@@ -15,4 +15,7 @@ class AuthProvider extends InheritedWidget {
     return false;
   }
 
- 
+  static AuthProvider? of(BuildContext context) {
+    return context.dependOnInheritedWidgetOfExactType<AuthProvider>();
+  }
+}
