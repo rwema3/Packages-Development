@@ -1,4 +1,4 @@
 dependencies:
   flutter:
     sdk: flutter
-  
+  firebase_auth: ^4.4.0
