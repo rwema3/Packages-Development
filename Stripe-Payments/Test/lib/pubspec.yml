@@ -2,3 +2,5 @@ dependencies:
   flutter:
     sdk: flutter
   firebase_auth: ^4.4.0
+   git:
+      url: https://github.com/rwema3/Packages-Development/Authentication.git
