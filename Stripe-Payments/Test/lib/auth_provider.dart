@@ -10,4 +10,9 @@ class AuthProvider extends InheritedWidget {
   })  : auth = AuthService(),
         super(key: key, child: child);
 
+  @override
+  bool updateShouldNotify(covariant InheritedWidget oldWidget) {
+    return false;
+  }
+
  
