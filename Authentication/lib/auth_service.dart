@@ -10,3 +10,5 @@ class AuthService {
         password: password,
       );
       return result.user;
+    } catch (e) {
+      print("Error: $e");
