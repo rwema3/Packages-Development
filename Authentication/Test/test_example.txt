@@ -1,0 +1,11 @@
+import 'package:your_auth_package/auth_provider.dart';
+
+// ...
+
+void main() {
+  runApp(
+    AuthProvider(
+      child: MyApp(),
+    ),
+  );
+}
