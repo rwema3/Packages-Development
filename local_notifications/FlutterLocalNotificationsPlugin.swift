@@ -11,3 +11,4 @@ public class SwiftFlutterLocalNotificationsPlugin: NSObject, FlutterPlugin {
   public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
     if call.method == "showNotification" {
       if let args = call.arguments as? [String: Any],
+         let title = args["title"] as? String,
