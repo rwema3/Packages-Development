@@ -7,3 +7,5 @@ class FlutterLocalNotifications {
       const MethodChannel('flutter_local_notifications');
 
   static Future<void> showNotification(String title, String body) async {
+    await _channel.invokeMethod('showNotification', {'title': title, 'body': body});
+  }
