@@ -12,3 +12,8 @@ public class SwiftFlutterLocalNotificationsPlugin: NSObject, FlutterPlugin {
     if call.method == "showNotification" {
       if let args = call.arguments as? [String: Any],
          let title = args["title"] as? String,
+         let body = args["body"] as? String {
+        // Implement your native code to show a local notification on iOS
+        // ...
+        result(nil)
+      } else {
