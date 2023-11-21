@@ -9,3 +9,4 @@ public class SwiftFlutterLocalNotificationsPlugin: NSObject, FlutterPlugin {
   }
 
   public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
+    if call.method == "showNotification" {
