@@ -24,4 +24,11 @@ class MyHomePage extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-   
+            FlutterLocalNotifications.showNotification('Hello', 'This is a local notification');
+          },
+          child: Text('Show Notification'),
+        ),
+      ),
+    );
+  }
+}
