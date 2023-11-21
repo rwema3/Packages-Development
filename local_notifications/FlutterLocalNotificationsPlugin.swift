@@ -17,3 +17,6 @@ public class SwiftFlutterLocalNotificationsPlugin: NSObject, FlutterPlugin {
         // ...
         result(nil)
       } else {
+        result(FlutterError(code: "INVALID_ARGUMENTS", message: "Invalid arguments", details: nil))
+      }
+    } else {
