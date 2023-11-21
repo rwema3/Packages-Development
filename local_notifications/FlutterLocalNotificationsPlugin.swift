@@ -8,3 +8,4 @@ public class SwiftFlutterLocalNotificationsPlugin: NSObject, FlutterPlugin {
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
 
+  public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
