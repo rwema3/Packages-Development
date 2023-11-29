@@ -9,3 +9,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     // Track an object
     LeakDetection.track(MyObject());
+
+    return MaterialApp(
+      home: Scaffold(
