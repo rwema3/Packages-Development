@@ -6,3 +6,6 @@ void main() {
 
 class MyApp extends StatelessWidget {
   @override
+  Widget build(BuildContext context) {
+    // Track an object
+    LeakDetection.track(MyObject());
