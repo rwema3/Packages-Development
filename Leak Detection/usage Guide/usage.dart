@@ -17,3 +17,7 @@ class MyApp extends StatelessWidget {
         ),
         body: Center(
           child: ElevatedButton(
+            onPressed: () {
+              // Untrack the object when it's no longer needed
+              LeakDetection.untrack(MyObject());
+            },
