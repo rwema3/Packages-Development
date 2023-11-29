@@ -7,3 +7,4 @@ class LeakDetection {
     _trackedObjects.add(object);
   }
 
+  static void untrack(Object object) {
