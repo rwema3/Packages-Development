@@ -12,3 +12,4 @@ class LeakDetection {
   }
 
   static void checkForLeaks() {
+    if (_trackedObjects.isNotEmpty) {
