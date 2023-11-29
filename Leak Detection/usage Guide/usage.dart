@@ -15,3 +15,5 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text('Memory Leak Detection Example'),
         ),
+        body: Center(
+          child: ElevatedButton(
