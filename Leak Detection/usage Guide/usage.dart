@@ -21,3 +21,14 @@ class MyApp extends StatelessWidget {
               // Untrack the object when it's no longer needed
               LeakDetection.untrack(MyObject());
             },
+            child: Text('Press me'),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class MyObject {
+  // Some data and methods
+}
