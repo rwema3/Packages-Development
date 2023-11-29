@@ -13,3 +13,7 @@ class LeakDetection {
 
   static void checkForLeaks() {
     if (_trackedObjects.isNotEmpty) {
+      log('Memory leak detected: $_trackedObjects');
+    }
+  }
+}
