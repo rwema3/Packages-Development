@@ -10,3 +10,5 @@ class LeakDetection {
   static void untrack(Object object) {
     _trackedObjects.remove(object);
   }
+
+  static void checkForLeaks() {
